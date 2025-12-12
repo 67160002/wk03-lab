@@ -62,11 +62,11 @@ Content → Padding → Border → Margin
 
 | Display          | Width/Height | Line Break | ใช้เมื่อ          |
 | ---------------- | ------------ | ---------- | ----------------- |
-| **block**        | �� Yes       | �� Yes     | Paragraph, div    |
-| **inline**       | � No         | � No       | span, link        |
-| **inline-block** | �� Yes       | � No       | Button, small box |
-| **flex**         | �� Yes       | Flexible   | Flexible layout   |
-| **grid**         | �� Yes       | Flexible   | Complex layout    |
+| **block**        | ✅ Yes       | ✅ Yes     | Paragraph, div    |
+| **inline**       | ❌ No        | ❌ No      | span, link        |
+| **inline-block** | ✅ Yes       | ❌ No      | Button, small box |
+| **flex**         | ✅ Yes       | Flexible   | Flexible layout   |
+| **grid**         | ✅ Yes       | Flexible   | Complex layout    |
 | **none**         | N/A          | N/A        | Hide element      |
 
 ### CSS Units (หน่วยวัด)
@@ -74,17 +74,17 @@ Content → Padding → Border → Margin
 | Unit                | ตัวอักษร | อ้างอิงกับ       | Responsive | ใช้เมื่อ                      |
 | ------------------- | -------- | ---------------- | ---------- | ----------------------------- |
 | --------            |
-| **Pixel**           | px       | ไม่มี (fixed)    | � No       | Borders, fixed layouts,       |
+| **Pixel**           | px       | ไม่มี (fixed)    | ❌ No      | Borders, fixed layouts,       |
 | precision           |
-| **Percentage**      | %        | Parent element   | �� Yes     | Responsive widths, flexible   |
+| **Percentage**      | %        | Parent element   | ✅ Yes     | Responsive widths, flexible   |
 | layouts             |
-| **Em**              | em       | Parent font-size | �� Yes     | Scalable components,          |
+| **Em**              | em       | Parent font-size | ✅ Yes     | Scalable components,          |
 | spacing             |
-| **Rem**             | rem      | Root font-size   | �� Yes     | Consistent sizing, typography |
+| **Rem**             | rem      | Root font-size   | ✅ Yes     | Consistent sizing, typography |
 | (แนะนํา)            |
-| **Viewport Width**  | vw       | Viewport width   | �� Yes     | Full-width                    |
+| **Viewport Width**  | vw       | Viewport width   | ✅ Yes     | Full-width                    |
 | sections            |
-| **Viewport Height** | vh       | Viewport height  | �� Yes     | Full-height                   |
+| **Viewport Height** | vh       | Viewport height  | ✅ Yes     | Full-height                   |
 | sections            |
 
 ## **💡 ทิป:** ใช้ `rem` และ `%` เป็นหลัก เพราะช่วยให้เว็บไซต์ตอบสนองต่อขนาดจอต่างๆ ได้ดีขึ้น
