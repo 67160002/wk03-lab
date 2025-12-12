@@ -12,7 +12,7 @@
 
 ---
 
-## �� File Structure
+## 📁 File Structure
 
 ```
 wk03-lab/
@@ -27,7 +27,7 @@ wk03-lab/
 
 ---
 
-## ������ Key Concepts
+## 🎯 Key Concepts
 
 ### CSS Selectors Priority (Specificity)
 
@@ -87,6 +87,6 @@ Content → Padding → Border → Margin
 | **Viewport Height** | vh       | Viewport height  | �� Yes     | Full-height                   |
 | sections            |
 
-## **����� ทิป:** ใช้ `rem` และ `%` เป็นหลัก เพราะช่วยให้เว็บไซต์ตอบสนองต่อขนาดจอต่างๆ ได้ดีขึ้น
+## **💡 ทิป:** ใช้ `rem` และ `%` เป็นหลัก เพราะช่วยให้เว็บไซต์ตอบสนองต่อขนาดจอต่างๆ ได้ดีขึ้น
 
 ---
